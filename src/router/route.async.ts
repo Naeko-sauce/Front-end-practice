@@ -29,6 +29,15 @@ const asyncRoutes: Array<RouteRecordRaw> = [
     },
     component: () => import('@/views/example/MarkdownPage.vue'),
   },
+  {
+    path: '/niao-bi',
+    name: 'NiaoBi',
+    meta: {
+      title: 'niao-bi',
+      icon: '',
+    },
+    component: () => import('@/views/project/niao-bi/index.vue'),
+  },
 ];
 
 export default asyncRoutes;
