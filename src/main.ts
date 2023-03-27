@@ -10,7 +10,7 @@ import App from './App.vue';
 import 'virtual:windi.css';
 // Devtools: https://windicss.org/integrations/vite.html#design-in-devtools
 import 'virtual:windi-devtools';
-import '@/assets/styles/index.scss';
+// import '@/assets/styles/index.scss';
 
 const i18n = createI18n({
   locale: 'en',

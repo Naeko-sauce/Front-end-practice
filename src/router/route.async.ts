@@ -4,12 +4,21 @@ import { RouteRecordRaw } from 'vue-router';
 const asyncRoutes: Array<RouteRecordRaw> = [
   {
     path: '/',
-    name: 'home',
+    name: 'home-index',
     meta: {
-      title: '',
+      title: '奈亚子主页导航',
       icon: '',
     },
-    component: () => import('@/views/home/index.vue'),
+    component: () => import('@/views/home/HoneIndex.vue'),
+  },
+  {
+    path: '/bootstrap-home',
+    name: 'BootStrap Home',
+    meta: {
+      title: 'bootstrap练习测试',
+      icon: '',
+    },
+    component: () => import('@/views/project/BookStrapHome/BookStrapHome.vue'),
   },
   {
     path: '/process',
