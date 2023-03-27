@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./li/cs/dl.css">
+    <!-- <script src="./li/js/dl.js"></script> -->
+</head>
+<body>
+    <div class="lt">
+        <img src="../biz/li/tup-1/rl_top.35edfde.png" alt="">
+    </div>
+    <div class="dbj">
+        
+        <div class="x1">
+            <span class="dla">登录</span>
+        </div>
+        <div class="bj2">
+            <div class="xh1">
+                <div class="hex1">
+                    <div class="ewm"><img src="./li/tup-1/index.png" alt=""></div>
+                </div>
+                <div class="hex2">
+                    <div class="tu">
+                        <span class="smdl">扫码登录</span>
+                        <p class="xxx">
+                            请使用blbl客户端
+                            <br>
+                            扫码登录
+                            <br>
+                            或扫码下载APP
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="fgx"></div>
+            <div class="xh2">
+                <div class="jm">
+                    <div class="yz">
+                        <span>密码登录</span>
+                        <span>短信登录</span>
+                    </div>
+                    <form action="./li/blbl.html.html"  method="post" onsubmit=" return hs()">
+                        <input type="text" id="yh" name="yh" placeholder="你的手机号/邮箱">
+                        <div id="sr" style="display: none;">请输入用户名</div>
+                        <input type="password" id="mi" name="mi" placeholder="密码">
+                        <div id="sr1" style="display:none;">请输入密码</div>
+                        <input type="checkbox" class="gx">
+                        <p class="da">记住我</p>
+                        <p class="jzw"></p>
+                        <input type="submit" value="登录" id="dl1">
+                        <input type="submit" value="注册" id="dl">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+      
+        function hs() {
+            var yh = document.getElementById('yh');
+        var mi = document.getElementById('mi');
+        var sr = document.getElementById('sr')
+        var sr1 = document.getElementById('sr1')
+        var yh1 = yh.value;
+        var mi1 = mi.value;
+            console.log(11);
+            if(yh1 == ''){
+                // yh1.focus();
+                sr.style.display = 'block'
+                return false
+            }
+            if(mi1 == ''){
+                sr1.style.display = 'block'
+                // mi1.focus();
+                return false
+            }
+            return true
+        }
+        console.log();
+    </script>
+</body>
+</html>

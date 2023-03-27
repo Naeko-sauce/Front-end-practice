@@ -1,0 +1,133 @@
+.dbj{
+    width: 1700px;
+    height: 2000px;
+    margin: 0 auto
+}
+.dxbj{
+    width: 1700px;
+    height: 40px;
+}
+.dxbj>ul>li{
+    list-style: none;
+    float: left;
+    margin: 10px 50px 10px 0;
+}
+.dxbj>ul>li>a{
+    color: rgb(187, 165, 165);
+    text-decoration: none;
+    font-size: 20px;
+}
+.dxbj>ul>li>a:hover{
+    color: rgb(91, 109, 211);
+}
+.bjto1{
+    width: 1700px;
+    height: 450px;
+    position: relative;
+}
+.bjto1>img{
+    width: 1700px;
+    height: 450px;
+    background-color: rgb(63, 38, 8);
+}
+.bjto2{
+    width: 1700px;
+    height: 70px;
+    position: absolute;
+    top: 386px;
+}
+.bjto2>a{
+    position:absolute;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    top: 30px;
+}
+.xsx{
+    width: 500px;
+    height: 70px;
+    position: absolute;
+    left: 1200px;
+}
+.xxxs>a>img{
+    float: left;
+    width: 95px;
+    height: 65px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    margin: 3px -1px 0px 29px;
+}
+.da-2aa{
+    margin-top: 55px;
+}
+.da-2aa>.box-1v>a{
+    font-size: 30px;
+    text-decoration: none;
+    margin-left: 0px;
+    font-weight: 500;
+    margin-top: -45px;
+    color: #000;
+    float: left;
+}
+.da-2aa>.box-2u>a{
+    font-size: 30px;
+    text-decoration: none;
+    margin-left: 1325px;
+    font-weight: 500;
+    margin-top: -50px;
+    color: #000;
+    float: left;
+}
+.box-49>img {
+    width: 320px;
+    height: 185px;
+}
+.box-49{
+    width: 320px;
+    height: 185px;
+    background-color: chocolate;
+    margin-top: -192px;
+    margin-left: 1330px;
+    border-radius: 10px;
+}
+.gduoaa {
+    width: 60px;
+    border: 2px solid #ccc;
+    height: 30px;
+    float: left;
+    margin-left: 319px;
+    margin-top: -45px;
+    border-radius: 5px;
+    position: relative;
+}
+.gduoaa>a {
+    position: absolute;
+    text-decoration: none;
+    color: #000;
+    margin: 5px 5px;
+}
+.dhz>.leim1 {
+    width: 206px;
+    height: 190px;
+    float: left;
+    margin: 0 57px 63px 0;
+    position: relative;
+    overflow: hidden;
+}
+.wc1 {
+    width: 383px;
+    height: 40px;
+    background-color: #e0e6ed;
+    float: left;
+    position: relative;
+    left: 1317px;
+    top: -104px;
+    border-radius: 5px;
+}
+.wc1>a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    position: absolute;
+    margin: 5px -5px 6px 134px;
+}
