@@ -18,7 +18,7 @@ const asyncRoutes: Array<RouteRecordRaw> = [
       title: 'bootstrap练习测试',
       icon: '',
     },
-    component: () => import('@/views/project/BookStrapHome/BookStrapHome.vue'),
+    component: () => import('@/views/project/bootstrap-home/index.vue'),
   },
   {
     path: '/process',
