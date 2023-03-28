@@ -21,15 +21,6 @@ const asyncRoutes: Array<RouteRecordRaw> = [
     component: () => import('@/views/project/bootstrap-home/index.vue'),
   },
   {
-    path: '/process',
-    name: 'process',
-    meta: {
-      title: 'Template configuration process',
-      icon: '',
-    },
-    component: () => import('@/views/example/MarkdownPage.vue'),
-  },
-  {
     path: '/niao-bi',
     name: 'NiaoBi',
     meta: {
@@ -37,6 +28,15 @@ const asyncRoutes: Array<RouteRecordRaw> = [
       icon: '',
     },
     component: () => import('@/views/project/niao-bi/index.vue'),
+  },
+  {
+    path: '/tik-tok-cn',
+    name: 'TikTok',
+    meta: {
+      title: '抖音',
+      icon: './src/views/project/tik-tok-cn/img/favicon_v2.ico',
+    },
+    component: () => import('@/views/project/tik-tok-cn/index.vue'),
   },
 ];
 

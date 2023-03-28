@@ -16,6 +16,7 @@ import router from '@/router';
 const links = [
   { id: 1, label: 'bootstrap', path: '/bootstrap-home' },
   { id: 2, label: 'niao-bi', path: '/niao-bi' },
+  { id: 3, label: 'TikTok', path: '/tik-tok-cn' },
 ];
 // const links: { [key: number]: string } = {
 //   1: '/bootstrap-home',
